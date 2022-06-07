@@ -1,0 +1,144 @@
+.coinpage {
+    display: flexbox;
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255);
+    box-shadow: 0px 0px 6px 0px rgba(150, 150, 150);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.coinpage-header {
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+
+.coinpage-header img {
+    height: 80px;
+}
+
+.coinpage-title {
+    padding: 0px 30px;
+}
+
+.coinpage-market {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.coinpage-price {
+    display: flexbox;
+    width: 45%;
+    margin: 0 20px 0 0;
+}
+
+.price-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats-title {
+    display: flex;
+    align-items: center;
+}
+
+.cap-volume {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+
+.high-low {
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    justify-content: space-between;
+}
+
+.coinpage-stats {
+    display: flexbox;
+    width: 45%;
+}
+
+.stats-header {
+    display: flex;
+    flex: 0.25;
+    padding: 15px 0;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stats-rank {
+    flex: 0.33;
+}
+
+.stats-algo {
+    flex: 0.33;
+}
+
+.stats-trust {
+    flex: 0.33;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.about-body {
+    margin-top: 10px;
+}
+
+.about-body p {
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 850px) {
+    .coinpage-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .coinpage-market {
+        display: block;
+    }
+
+    .coinpage-price {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .coinpage-stats {
+        width: 100%;
+    }
+
+    .stats-header {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .stats-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .stats-rank {
+        text-align: center;
+    }
+
+    .stats-algo {
+        text-align: center;
+    }
+
+    .stats-trust {
+        text-align: center;
+    }
+
+    .about-container {
+        margin-top: 20px;
+    }
+}

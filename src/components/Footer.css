@@ -1,0 +1,31 @@
+.footer {
+    box-shadow: 0px 0px 4px 0 rgba(150, 150, 150);
+    border: 1px solid rgba(150, 150, 150);
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.powered {
+    padding: 10px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.footer-info {
+    flex: 0.5;
+    text-align: center;
+}
+
+.footer-signup {
+    flex: 0.5;
+    text-align: center;
+}
